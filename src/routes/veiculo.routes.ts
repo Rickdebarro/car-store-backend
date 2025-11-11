@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { VeiculoController } from '../controllers/veiculo.controller';
-import { upload } from '../middlewares/upload';
+import { upload } from '../middlewares/upload.middleware';
 
 const router = Router();
 const controller = new VeiculoController();

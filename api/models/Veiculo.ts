@@ -1,6 +1,6 @@
 // src/models/Veiculo.ts
 import { Schema, model, Document, Types } from 'mongoose';
-import { VeiculoType, VEICULOTYPE } from '../types/veiculo.type';
+import { VeiculoType, VEICULOTYPE } from '../types/veiculo.type.js';
 
 
 export interface IVeiculo extends Document {

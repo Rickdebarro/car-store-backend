@@ -1,7 +1,8 @@
 {
   "name": "car-store-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.ts",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch api/index.ts",
     "start": "node api/index.ts",

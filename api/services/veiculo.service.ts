@@ -1,5 +1,5 @@
 // src/services/veiculo.service.ts
-import { VeiculoModel, IVeiculo } from '../models/Veiculo';
+import { VeiculoModel, IVeiculo } from '../models/Veiculo.js';
 
 export class VeiculoService {
 

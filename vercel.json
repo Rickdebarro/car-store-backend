@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "express-api-mongodb",
+  "builds": [
+    {
+      "src": "api/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "api/index.ts" }
+  ]
+}

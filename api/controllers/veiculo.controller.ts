@@ -1,6 +1,6 @@
 // src/controllers/veiculo.controller.ts
 import { Request, Response } from 'express';
-import { VeiculoService } from '../services/veiculo.service';
+import { VeiculoService } from '../services/veiculo.service.js';
 
 const veiculoService = new VeiculoService();
 
